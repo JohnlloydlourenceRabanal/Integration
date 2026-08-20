@@ -15,4 +15,4 @@ export default function Dashboard() {
       <button onClick={handleLogout}>Logout</button>
     </div>
   );
-}
+} 
