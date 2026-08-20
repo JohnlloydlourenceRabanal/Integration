@@ -29,7 +29,7 @@ export default function Register() {
       setMessage(err.response?.data?.message || 'Registration failed. Try again.');
       setIsError(true);
     }
-  };
+  }; 
 
   return (
     <div style={{ maxWidth: '400px', margin: '50px auto' }}>
