@@ -30,7 +30,7 @@ export default function Login() {
     } catch (err) {
       setMessage(err.response?.data?.message || 'Invalid username or password.');
       setIsError(true);
-    }
+    } 
   };
 
   return (
