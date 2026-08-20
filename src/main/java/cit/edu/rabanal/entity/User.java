@@ -9,6 +9,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class User {
 
     @Id
@@ -22,4 +23,6 @@ public class User {
     private String password;
 
     private String fullName;
+
+    private String email;
 }

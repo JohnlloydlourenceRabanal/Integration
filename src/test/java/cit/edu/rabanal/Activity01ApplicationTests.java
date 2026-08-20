@@ -1,4 +1,4 @@
-package edu.cit.rabanal.Activity01;
+package cit.edu.rabanal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
